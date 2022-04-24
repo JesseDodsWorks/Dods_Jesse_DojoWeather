@@ -1,0 +1,131 @@
+.container{
+    background-color: pink;
+    margin: 0 auto;
+    width: 800px;
+    height: 800px;
+    justify-content: center;
+}
+
+.nav_bar{
+    background-color: rgb(240, 194, 255);
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav_bar p{
+    font-size: 40px;
+    color: black;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color:black;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+#temperature{
+    border:none;
+
+}
+
+.main_content{
+    background-color: rgb(194, 209, 255);
+    width: 100%;
+    height:600px
+}
+
+.location{
+    background-color: pink;
+    max-width:100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid black;
+    padding: 0 10%;
+    margin: 0 10%;
+}
+
+.location p:first-child{
+    font-size: 25px;
+    padding-left: 0;
+}
+.location p{
+    padding-left: 70px;
+}
+
+.week_content{
+    
+    max-width: 100%;
+    height: 400px;
+    margin: 0 10%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.day{
+    background-color: aquamarine;
+    width:150px;
+    max-height:300px;
+    border:2px solid black;
+    margin:10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.day img{
+    height:100px;
+    border-radius: 50%;
+}
+
+.day_temp{
+    width:75px;
+    display:flex;
+    font-size: 35px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.morning{
+    color:lightcoral;
+    padding-right: 5px;
+}
+
+.night{
+    color:rgb(51, 102, 255);
+    padding-left: 5px;
+}
+
+.cookie_container{
+    padding: 0 10% 0 10%;
+}
+
+.cookie{
+    background-color: lightgreen;
+    max-width: 100%;
+    height: 150px;
+    border:4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+#cookieHeader{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.cookie p{
+    width:500px;
+    margin-top: 5px;
+}
+
